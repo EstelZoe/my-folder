@@ -12,21 +12,21 @@
 
 <body>
 
-        <nav class="nav-bar">
-            <span>
-                <a href="">
-                    <h3>ZOE'S KLOSET</h3>
-                </a>
-            </span>
+    <nav class="nav-bar">
+        <span>
+            <a href="">
+                <h3>ZOE'S KLOSET</h3>
+            </a>
+        </span>
 
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="">Explore</a></li>
-                <li><a href="">Order</a></li>
-            </ul>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="">Explore</a></li>
+            <li><a href="">Order</a></li>
+        </ul>
 
-        </nav>
+    </nav>
 
     <header>
         <div class="header-box">
@@ -37,21 +37,116 @@
 
     <section>
         <div class="about-section">
-            <h1 class="third-text">About</h1>
-            <h3 class="fourth-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quisquam qui et sequi atque similique accusantium autem aperiam in repellat perspiciatis unde error blanditiis dignissimos laboriosam ipsam, alias quam repellendus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ad cupiditate sunt, ea minus reiciendis maiores itaque quod aliquid vitae sint similique quo iure, praesentium tenetur mollitia eius vero assumenda.</h3>
+            <h1 class="third-text">About Us</h1>
+            <h3 class="fourth-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quisquam qui et sequi
+                atque similique accusantium autem aperiam in repellat perspiciatis unde error blanditiis dignissimos
+                laboriosam ipsam, alias quam repellendus! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Doloremque ad cupiditate sunt, ea minus reiciendis maiores itaque quod aliquid vitae sint similique quo
+                iure, praesentium tenetur mollitia eius vero assumenda.</h3>
         </div>
     </section>
+
+    <section class="explore-section">
+        <div class="services">
+            <h2>LET'S EXPLORE</h2>
+        </div>
+
+        <div class="explore-container">
+
+            <div class="lifestyle-card">
+                <img src="./image/WhatsApp Image 2025-05-15 at 4.23.20 PM.jpeg"
+                    alt="3 ladies wearin in crochet brallets in ghana colours" class="lifestyle-image">
+                <!--  -->
+                <div class="lifestyle-info">
+                    <h3>Lifestyle</h3>
+                    <p class="p-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa placeat quibusdam
+                        eligendi tempora
+                        inventore </p>
+                    <button class="btn">View More</button>
+                </div>
+                <!--  -->
+
+            </div>
+            <!--  -->
+
+            <div class="lifestyle-card">
+                <img src="./image/web crochet.jpg" alt="3 ladies wearin in crochet brallets in ghana colours"
+                    class="lifestyle-image">
+                <!--  -->
+                <div class="lifestyle-info">
+                    <h3>Children</h3>
+                    <p class="p-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa placeat quibusdam
+                        eligendi tempora
+                        .</p>
+                    <button class="btn">View More</button>
+                </div>
+                <!--  -->
+
+            </div>
+            <!--  -->
+
+            <div class="lifestyle-card">
+                <img src="./image/webcrochet2.jpg" alt="3 ladies wearin in crochet brallets in ghana colours"
+                    class="lifestyle-image">
+                <!--  -->
+                <div class="lifestyle-info">
+                    <h3>Lifestyle</h3>
+                    <p class="p-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa placeat quibusdam
+                        eligendi tempora
+                    </p>
+                    <button class="btn">View More</button>
+                </div>
+                <!--  -->
+
+            </div>
+            <!--  -->
+        </div>
+    </section>
+
     <section>
+
+        <h2 class="order-title">Order here</h2>
+
         <div>
-            <h1>Let's Explore</h1>
-            <img src="" alt="">
-            <p></p>
+            <form action="your-server-endpoint" method="POST" class="order-form">
+                <div>
+                </div>
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="product">Select Product:</label>
+                    <select id="product" name="product" required>
+                        <option value="">-- Choose an item --</option>
+                        <option value="brallets">Brallets</option>
+                        <option value="beach-dress">beach dress</option>
+                        <option value="lifestyle">Lifestyle</option>
+                    </select>
+
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+                    <button type="submit">Proceed to Payment</button>
+                </div>
+
+            </form>
 
         </div>
     </section>
-
-
-
+<footer class="site-footer">
+    <p>&copy; 2025 ZOE'S KLOSET. All Rights Reserved.</p>
+    <p>Contact Us:estelzoe433@gmail.com / 0540213433</p>
+    <p>
+        Follow Us:
+        <a href="#">Facebook</a>
+        <a href="#">WhatsApp</a>
+        <a href="#">Instagram</a>
+        <a href="#">twitter</a>
+    </p>
+</footer>
 </body>
 
 </html>

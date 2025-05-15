@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
 }
-nav{
+
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -16,7 +17,7 @@ nav{
 
 }
 
-.nav-links{
+.nav-links {
 
     display: flex;
     gap: 100px;
@@ -27,8 +28,8 @@ nav{
     /* flex-direction: row;  */
 }
 
-header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../image/logo.jpeg);
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/logo.jpeg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -38,8 +39,8 @@ header{
     align-items: center;
 }
 
-header a:hover{
-    color:red;
+header a:hover {
+    color: red;
 }
 
 .header-box {
@@ -52,16 +53,16 @@ header a:hover{
     /* margin-top: 20%; */
 }
 
-.first-text{
-    font-size: 45px;  
+.first-text {
+    font-size: 45px;
     text-align: center;
     height: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-} 
+}
 
-.second-text{
+.second-text {
     font-size: 30px;
     height: 70%;
     justify-content: center;
@@ -71,15 +72,16 @@ header a:hover{
 
 }
 
-.about-section{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../image/image\ 3.jpg);
+.about-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/image\ 3.jpg);
     background-position: center;
     background-attachment: fixed;
     height: 80vh;
     background-size: cover;
 
 }
-.third-text{
+
+.third-text {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -89,12 +91,111 @@ header a:hover{
     font-size: 50px;
 }
 
-.fourth-text{
+.fourth-text {
     /* width: 80%; */
     /* padding: 20; */
     text-align: center;
     color: black;
-    
+
 }
 
+.services {
+    font-size: 15px;
+    font-style: italic;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(107, 17, 190);
+    border-radius: 10px;
+    width: max-content;
+    margin: 20px auto;
+    color: white;
+    padding: 20px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
 
+.explore-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.lifestyle-card {
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgb(107, 17, 190);
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+
+}
+
+.lifestyle-image {
+    width: 100%;
+    height: 200px;
+}
+
+.explore-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.btn {
+    background-color: rgb(107, 17, 190);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lifestyle-info {
+    padding: 16px;
+}
+
+.explore-container {
+    display: flex;
+}
+
+.p-text {
+    margin-bottom: 20px;
+}
+
+.order-form {
+    font-size: 15px;
+    font-style: italic;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+
+.order-title {
+    font-size: 25px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(107, 17, 190);
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.site-footer{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    margin-top: 50px;
+}
